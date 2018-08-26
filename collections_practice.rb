@@ -96,7 +96,7 @@ def organize_schools(schools)
   organized_hash
 end
 
-schools= {
+schools= 
     {
       "flatiron school bk" => {
         :location => "NYC"
@@ -117,6 +117,6 @@ schools= {
         :location => "SF"
       }
     }
-  }
+  
   
   organize_schools(schools)
