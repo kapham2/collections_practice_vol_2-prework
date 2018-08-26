@@ -88,7 +88,7 @@ def organize_schools(schools)
   
   schools.each do |school, loc_hash|
     loc_hash.each do |key, value|
-      if organized_hash.has_key?
+      if organized_hash.has_key?(value)
         organized_hash[value] = organized_hash[value].push(school)
       else
         organized_hash[value] = [school]
