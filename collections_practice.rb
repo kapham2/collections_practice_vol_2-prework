@@ -119,4 +119,4 @@ schools= {
     }
   }
   
-  
+  organize_schools(schools)
