@@ -83,7 +83,7 @@ def find_cool(cool)
   cool_array
 end
 
-def organize_school(schools)
+def organize_schools(schools)
   organized_hash = {}
   
   schools do |school, loc_hash|
