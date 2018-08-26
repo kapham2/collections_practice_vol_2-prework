@@ -88,7 +88,7 @@ def organize_school(schools)
   
   schools do |school, loc_hash|
     loc_hash do |key, value|
-      
+      organized_hash[value] = school
     end
   end
   
