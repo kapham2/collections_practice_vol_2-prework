@@ -89,7 +89,6 @@ def organize_schools(schools)
   schools.each do |school, loc_hash|
     loc_hash.each do |key, value|
       organized_hash[value] = school
-      puts organized_hash
     end
   end
   
